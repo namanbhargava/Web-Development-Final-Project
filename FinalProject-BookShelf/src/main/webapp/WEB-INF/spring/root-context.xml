@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="employee" class="in.developersera.pojo.Employee"></bean>
+	<bean id="userDao" class="in.developersera.dao.UserDao"></bean>	
+	<bean id="userPojo" class="in.developersera.pojo.UserPojo"></bean>
+	<bean id="productPojo" class="in.developersera.pojo.ProductPojo"></bean>
+	<bean id="productDao" class="in.developersera.dao.ProductDao"></bean>			
+	<bean id="productValidator" class="in.developersera.validator.NewProductValidator"></bean>
+	<bean id="categoryValidator" class="in.developersera.validator.CategoryValidator"></bean>
+	<bean id="categoryDao" class="in.developersera.dao.CategoryDAO"></bean>
+	<bean id="cartDao" class="in.developersera.dao.CartDao"></bean>
+			
+</beans>
